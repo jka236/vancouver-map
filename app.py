@@ -6,5 +6,6 @@ app = Flask(__name__)
 def render_the_map():
     return render_template('the_map.html')
 
+
 if __name__ == '__main__':
     app.run(debug=True)
